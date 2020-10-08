@@ -1,0 +1,9 @@
+# This file is an example to show how to format a family.
+
+# Two lines represent an union:
+Lionel Spiteri (M, birthday=1963-04-14, deathday=present)
+Elene Spiteri-Green (F)
+# Indented lines after the union represent children
+	Dwayne\n Isaac Patrick Laurence\n Spiteri (id=Dwayne1994, M, birthday=1994-07-27, deathday=present)
+	Stephane\n Alexander\n Spiteri (M, surname=Spiteri, birthday=1995-12-08, deathday=present)
+	Nikita\n Maria\n Thingymajig (F, surname=Spiteri, birthday=1997-04-15)
