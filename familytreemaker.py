@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # Copyright (C) 2013 Adrien Vergé
+# Edited by Dwayne Spiteri 2020
 
 """familytreemaker
 
@@ -25,6 +26,7 @@ Louis XIV and saving the image in LouisXIVfamily.png.
 """
 
 __author__ = "Adrien Vergé"
+__editor__ = "Dwayne Spiteri"
 __copyright__ = "Copyright 2013, Adrien Vergé"
 __license__ = "GPL"
 __version__ = "1.0"
@@ -101,7 +103,7 @@ class Person:
 		return self.id + '[' + ','.join(opts) + ']'
 
 class Household:
-	"""This class represents a household, i.e. a union of two person.
+	"""This class represents a household, i.e. a union of two people.
 
 	Those two persons are listed in 'parents'. If they have children, they are
 	listed in 'kids'.
