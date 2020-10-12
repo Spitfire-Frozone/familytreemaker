@@ -86,6 +86,8 @@ class Person:
 
 	def graphviz(self):
 		label = self.name
+		if 'namechange' in self.attr:
+			label += '\\n nee ' + str(self.attr['namechange'])	
 		if 'surname' in self.attr:
 			label += '\\n« ' + str(self.attr['surname']) + '»'
 		if 'birthday' in self.attr:
