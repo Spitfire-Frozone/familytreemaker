@@ -98,8 +98,13 @@ class Person:
 			label += '\\n' + str(self.attr['notes'])
 		opts = ['label="' + label + '"']
 		opts.append('style=filled')
-		opts.append('fillcolor=' + ('F' in self.attr and 'bisque' or
-					('M' in self.attr and 'azure2' or 'white')))
+
+		opts.append('fillcolor=' + ('E' in self.attr and 'red' or
+					               ('G' in self.attr and 'green' or 
+					               ('P' in self.attr and 'deepskyblue' or	
+					               ('S' in self.attr and 'orange' or 
+					               ('Q' in self.attr and 'yellow' or
+					               	'white'))))))
 		return self.id + '[' + ','.join(opts) + ']'
 
 class Household:
